@@ -8,6 +8,11 @@
 </div>
 
 <div align="center">
+  <!-- Chrome/Chromium -->
+  <a href="#">
+    <img src="https://img.shields.io/badge/Chrome-69+-orange.svg?style=flat-square"
+      alt="Chrome version" />
+  </a>
   <!-- Say Thanks -->
   <a href="https://saythanks.io/to/AdroitAdorKhan">
     <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?longCache=true&style=flat-square"
@@ -35,6 +40,27 @@
 
 Project Chromossify is highly inspired by <a href="https://github.com/CHEF-KOCH/Chromium-hardening" target="_blank">CHEF-KOCH's Chromium Hardening</a>. 
 This will increase your chrome and chromium's privacy as well as enhance the user experience. Smooth UI and speedy Chrome experience, you will be loving this!
+
+## Chromossify-ing <img src="https://img.shields.io/badge/Chrome-69+-orange.svg?style=flat-square" alt="Chrome version" />
+Go to <code>chrome://flags</code> and toggle enable/disable the following flags.
+
+### Legends
+Check the `legends` properly before applying.
+
+Enable | Disable | Removed | Mobile Devices | Desktop | 
+|:----:|:-------:|:-------:|:--------------:|:-------:|
+<strong>✓</strong> | <strong>×</strong> | <strong>∅</strong> | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mobile.png" width="20" height="20"></a> | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/desktop.png" width="20" height="20"></a> | 
+
+### Flags
+The following configuration may differ on devices because mobile and desktop devices have their own flags due to performance reasons or security measurements.
+Go to <code>chrome://flags</code> and enable/disable the flags you need.
+
+Flag Name | Description | Address | Toggle | Device | Category |
+|:-------:|:-----------:|:-------:|:------:|:------:|:--------:|
+Only Auto-Reload Visible Tabs | Pages that fail to load while the browser is offline will only be auto-reloaded if their tab is visible. – Mac, Windows, Linux, Chrome OS, Android | [#enable-offline-auto-reload-visible-only](chrome://flags/#enable-offline-auto-reload-visible-only) | ✓ | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mobile.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/desktop.png" width="20" height="20"></a> | `PERFORMANCE` |
+
+
+
 
 ## Support
 
