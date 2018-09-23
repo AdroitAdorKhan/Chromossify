@@ -47,17 +47,20 @@ Go to <code>chrome://flags</code> and toggle enable/disable the following flags.
 ### Legends
 Check the `legends` properly before applying.
 
-Enable | Disable | Removed | Mobile Devices | Desktop | 
-|:----:|:-------:|:-------:|:--------------:|:-------:|
-<strong>✓</strong> | <strong>×</strong> | <strong>∅</strong> | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mobile.png" width="20" height="20"></a> | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/desktop.png" width="20" height="20"></a> | 
+Enable | Disable | Removed | Android | Windows | Mac | Linux | Chrome OS | 
+|:----:|:-------:|:-------:|:-------:|:-------:|:---:|:-----:|:---------:|
+<strong>✓</strong> | <strong>×</strong> | <strong>∅</strong> | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mobile.png" width="20" height="20"></a> | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/windows.png" width="20" height="20"></a> | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mac.png" width="20" height="20"></a> | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/linux.png" width="20" height="20"></a> | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/chrome.png" width="20" height="20"></a>
 
 ### Flags
 The following configuration may differ on devices because mobile and desktop devices have their own flags due to performance reasons or security measurements.
 Go to <code>chrome://flags</code> and enable/disable the flags you need.
 
-Flag Name | Description | Address | Toggle | Device | Category |
-|:-------:|:-----------:|:-------:|:------:|:------:|:--------:|
-Only Auto-Reload Visible Tabs | Pages that fail to load while the browser is offline will only be auto-reloaded if their tab is visible. – Mac, Windows, Linux, Chrome OS, Android | [#enable-offline-auto-reload-visible-only](chrome://flags/#enable-offline-auto-reload-visible-only) | ✓ | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mobile.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/desktop.png" width="20" height="20"></a> | `PERFORMANCE` |
+Flag Name | Description | Address | Toggle | Device(s) | Category |
+|:-------:|:-----------:|:-------:|:------:|:---------:|:--------:|
+`Enable new Photopicker` | Activates the new picker for selecting photos. | `#enable-new-photo-picker` | ✓ | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mobile.png" width="20" height="20"></a> | `UI ENHANCEMENT` |
+`Fast tab/window close` | Enables fast tab/window closing - runs a tab's onunload js handler independently of the GUI. | `#enable-fast-unload` | ✓ | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mobile.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/windows.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mac.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/linux.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/chrome.png" width="20" height="20"></a> | `UI ENHANCEMENT` `PERFORMANCE` |
+`Only Auto-Reload Visible Tabs` | Pages that fail to load while the browser is offline will only be auto-reloaded if their tab is visible. | `#enable-offline-auto-reload-visible-only` | ✓ | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mobile.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/windows.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mac.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/linux.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/chrome.png" width="20" height="20"></a> | `PERFORMANCE` |
+`TCP Fast Open` | Enable the option to send extra authentication information in the initial SYN packet for a previously connected client, allowing faster data send start. | `#enable-tcp-fast-open` | ✓ | <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/mobile.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/linux.png" width="20" height="20"></a> <a href="#"><img src="https://raw.githubusercontent.com/AdroitAdorKhan/Chromossify/master/assets/chrome.png" width="20" height="20"></a> | `PERFORMANCE` |
 
 
 
